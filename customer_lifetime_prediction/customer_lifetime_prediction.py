@@ -7,7 +7,7 @@ from lifetimes import BetaGeoFitter, GammaGammaFitter
 from lifetimes.plotting import plot_period_transactions
 
 # 1. Loading the Dataset
-retail_df = pd.read_excel('https://github.com/fenago/datasets/raw/main/Online%20Retail.xlsx')
+retail_df = pd.read_excel('/Users/rishabhbassi/Downloads/customer_lifetime_pred/online_retail_II.xlsx')
 
 # 2. Data Preprocessing
 retail_df.drop_duplicates(inplace=True)
